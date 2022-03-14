@@ -8,22 +8,43 @@
        💰 Here are script tags that'll do the job:
   <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
-  -->
+-->
 
+  <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
   <script type="module">
     const rootElement = document.getElementById('root')
 
     // You're going to re-implement this code using React!
     // 💣 So go ahead and delete this implementation (or comment it out for now)
     // These three lines are similar to React.createElement
-    const element = document.createElement('div')
-    element.textContent = 'Hello World' // 💰 in React, you set this with the "children" prop
-    element.className = 'container' // 💰 in React, this is also called the "className" prop
+    // const element = document.createElement('div')
+    // element.textContent = 'Hello World' // 💰 in React, you set this with the "children" prop
+    // element.className = 'container' // 💰 in React, this is also called the "className" prop
     // This is similar to ReactDOM.render
-    rootElement.append(element)
+    // rootElement.append(element)
 
     // 🐨 Please re-implement the regular document.createElement code above
     // with these React API calls
     // 💰 The example in the markdown file should be a good hint for you.
+
+    // Exercise
+    const divProps = {className: 'container', children: 'Hello World!'}
+    const reactDiv = React.createElement('div', divProps)
+    ReactDOM.render(reactDiv, rootElement)
+
+    // Extra Credit
+    const div2Props = {className: 'container'}
+    const span1Props = {key: 1, children: 'Hello'}
+    const span2Props = {key: 2, children: 'World!'}
+
+    const reactSpan1 = React.createElement('p', span1Props)
+    const reactSpan2 = React.createElement('p', span2Props)
+    const reactDiv2 = React.createElement('div', div2Props, [
+      reactSpan1,
+      reactSpan2,
+    ])
+
+    ReactDOM.render(reactDiv2, rootElement)
   </script>
 </body>
