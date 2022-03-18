@@ -10,3 +10,8 @@ React module is responsible for enabling creating of HTML elements/nodes
 ReactDOM module is responsible for rendering React generated HTML elements in the browser  
 How to create HTML elements using the "raw" `React.createElement` API  
 How to append React generated HTML elements to the DOM using "raw" `ReactDOM.render` API
+
+## 03: Using JSX
+Creating React components using JSX syntax
+Using Babel to transpile JSX into JS for testing and demo purposes in the browser  
+Passing props to JSX using literal values, variables, and objects  
