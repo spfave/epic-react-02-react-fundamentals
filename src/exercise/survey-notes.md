@@ -22,3 +22,9 @@ Using a JSX return function in React.createElement
 Creating a custom React component using just JSX  
 Runtime validation of React component props with a custom function and React.propTypes package  
 React fragment component   
+
+## 05: Styling
+Styling React components with inline styles and classes  
+Merge (compose) passed in prop classes and styles with component applied classes and styles  
+Encapsulate style definition as component implementation detail and collect input as a component prop  
+
