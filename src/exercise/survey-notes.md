@@ -15,3 +15,10 @@ How to append React generated HTML elements to the DOM using "raw" `ReactDOM.ren
 Creating React components using JSX syntax
 Using Babel to transpile JSX into JS for testing and demo purposes in the browser  
 Passing props to JSX using literal values, variables, and objects  
+
+## 04: Creating Custom Components
+Creating a function to return JSX/React element  
+Using a JSX return function in React.createElement  
+Creating a custom React component using just JSX  
+Runtime validation of React component props with a custom function and React.propTypes package  
+React fragment component   
