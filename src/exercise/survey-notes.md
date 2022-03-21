@@ -28,3 +28,8 @@ Styling React components with inline styles and classes
 Merge (compose) passed in prop classes and styles with component applied classes and styles  
 Encapsulate style definition as component implementation detail and collect input as a component prop  
 
+## 06: Forms
+Getting form input data using DOM APIs  
+Getting form input data using React refs to HTML elements  
+Performing functions on form input upon input change  
+Controlled and uncontrolled react form elements  
