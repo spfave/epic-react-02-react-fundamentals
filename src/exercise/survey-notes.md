@@ -33,3 +33,8 @@ Getting form input data using DOM APIs
 Getting form input data using React refs to HTML elements  
 Performing functions on form input upon input change  
 Controlled and uncontrolled react form elements  
+
+## 07: Rendering Arrays
+Rendering lists in React  
+Importance of the key prop on a rendered list  
+Importance of a unique key prop on a rendered list  
